@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0D1A2D;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 380px;
+  height: auto;
+  background: #15273F;
+  color: white;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 19rem;
+  height: 18rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-image: url(./image/cubo_de_vidro.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 40px;
+  /* background: white; */
+}
+
+.title span {
+  font-size: x-large;
+  font-weight: 900;
+  padding-top: 8px;
+  padding-left: 7px;
+}
+
+.text {
+  width: 100%;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.text p {
+  font-size: larger;
+  font-weight: 600;
+  line-height: 1.7rem;
+  color: #748BAC;
+}
+
+.value {
+  display: flex;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  border-bottom: 2px solid #2F4159;
+}
+
+.coinValue {
+  display: flex;
+  align-items: center;
+}
+
+#eth {
+  width: 13px;
+  color: #0DF9F4;
+  margin-right: 6px;
+}
+
+.colorInternalLeft {
+   color: #0DF9F4;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+
+#iconTime {
+  width: 15px;
+  color: #93B2D9;
+  margin-right: 6px;
+}
+
+.colorInternalRight {
+  color: #93B2D9;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#three {
+  margin-right: 3px;
+}
+
+.owner {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin-top: 25px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#profilelCoin {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.owner p {
+  font-size: 18px;
+}
+
+#colorTextFinal {
+  color: #93B2D9;
+  margin-right: 5px;
+}
